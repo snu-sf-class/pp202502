@@ -1,0 +1,70 @@
+## scala
+.DS_Store
+*.class
+*.log
+*~
+
+# sbt specific
+dist/*
+target/
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+project/local-plugins.sbt
+.history
+.bsp
+.metals
+.bloop
+
+# Scala-IDE specific
+.scala_dependencies
+.cache
+.classpath
+.project
+.settings
+classes/
+
+# idea
+.idea
+.idea_modules
+/.worksheet/
+
+# Dotty-IDE
+.dotty-ide-artifact
+.dotty-ide.json
+
+# Visual Studio Code
+.vscode
+
+# Nuxt dev/build outputs
+.output
+.data
+.nuxt
+.nitro
+.cache
+dist
+
+# Node dependencies
+node_modules
+
+# Logs
+logs
+*.log
+
+# Misc
+.DS_Store
+.fleet
+.idea
+
+# Local env files
+.env
+.env.*
+!.env.example
+prisma/migrations
+prisma/dev.db*
+
+assignments-repo
+students-repo
+assignments/test
+assignments-repo
