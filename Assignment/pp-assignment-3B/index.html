@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>The Scala.js Tutorial</title>
+    <!-- Include Scala.js compiled code -->
+    <style>
+      #plane {
+        margin: 10px;
+        border: 1px solid black;
+        min-height: 600px;
+        min-width: 600px;
+        overflow: auto;
+        display: flex;
+        flex-direction: column;
+      }
+      .row {
+        display: flex;
+      }
+      .cell {
+        border: 1px solid black;
+        height: 8px;
+        width: 8px;
+      }
+      .cell-0 {
+        background-color: white;
+      }
+      .cell-1 {
+        background-color:#aaaa00;
+      }
+      .cell-2 {
+        background-color: blue;
+      }
+      .cell-3 {
+        background-color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="plane">
+    </div>
+    <button onclick="step()">Step</button>
+    <button onclick="clearAll()">Clear</button>
+    <div id="mode">
+      <!--select option elementary/gameoflife/wireworld-->
+      <select id="modeSelect" onchange="changeMode()">
+        <option value="elementary">Elementary</option>
+        <option value="gameoflife">Game of Life</option>
+        <option value="wireworld">Wireworld</option>
+      </select>
+    </div>
+    <div>width: <input id="width" onchange="changeWidth()" type="text" value="10"></div>
+    <div id="hline">height: <input id="height" onchange="changeHeight()" type="text" value="10"></div>
+    <div id="elemline">Elementary Mode: <input id="elemMode" onchange="changeElementary()" type="text" value="110"></div>
+    <script type="text/javascript" src="./target/scala-3.3.1/pp-assignment-3-fastopt/main.js"></script>
+  </body>
+</html>
