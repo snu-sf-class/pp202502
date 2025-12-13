@@ -21,6 +21,7 @@ If the professor does not specifically check attendance during class, everyone w
 
 #### Exam
 - [Midterm](https://github.com/snu-sf-class/pp202502/issues/2) : 2024/10/28(Tue) 17:15 ~ 22:00
+- [Final](https://github.com/snu-sf-class/pp202502/issues/11) : 2024/12/13(Sat) 13:00 ~ 19:00
 
 #### Assignments
 <!-- - [Assignment #0](https://github.com/snu-sf-class/pp202402/issues/3).
